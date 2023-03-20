@@ -5,8 +5,8 @@ $action = json_decode($json, true);
 $message	= $action['message']['text']; 
 $chat		= $action['message']['chat']['id'];
 $user		= $action['message']['from']['id'];
-$token		= 'YOUR_TELEGRAM_BOT_TOKEN';
-$smstoken   = 'YOUR_SMSACTIVATE_API_KEY'
+$token		= '6252459516:AAGpW4sKjsGCOvYGksPULrs4dSA_zvxsIhU';
+$smstoken   = '24072c3ee97b32e5224b6c43db3c0A1c'
 
 
 if ($message == '/nomer@YOUR_BOT_NAME' OR $message == '/nomer' OR !file_exists($filename)) {
